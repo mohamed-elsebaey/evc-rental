@@ -64,7 +64,7 @@ const products: Product[] = [
   {
     title: "Canon CR-N500 PTZ 3-Camera and Controller Kit",
     price: "$799",
-    rating: 4.9,
+    rating: 3.9,
     reviews: 879,
     image: image3,
     badge: "Up to 35% off",
@@ -93,7 +93,7 @@ const products: Product[] = [
   {
     title: "DJI Inspire 3 Premium Kit",
     price: "$499",
-    rating: 4.8,
+    rating: 2.8,
     reviews: 4263,
     image: image5,
     badge: "Up to 10% off",
