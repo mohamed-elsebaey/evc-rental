@@ -257,7 +257,7 @@ export default function Products() {
   };
   return (
     <>
-      <section className="bg-gray-50 py-16 md:py-20">
+      <section className="bg-gray-50 md:py-20">
         <div className="container">
           <div className="mb-4 items-end justify-between space-y-4 sm:flex sm:space-y-0 md:mb-8">
             <div>
