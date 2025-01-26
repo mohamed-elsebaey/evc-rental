@@ -70,8 +70,8 @@ function Header({
                 target={false}
               />
               <NavLink
-                label="Pricing"
-                link="/pricing"
+                label="Products"
+                link="/"
                 closeListHandler={closeListHandler}
                 target={false}
               />

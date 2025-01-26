@@ -45,7 +45,7 @@ export default async function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header userRole={userRole} profilePath={profilePath}/>
-        <div className="py-12 min-h-screen">{children}</div>
+        <div>{children}</div>
         <Footer />
       </body>
     </html>

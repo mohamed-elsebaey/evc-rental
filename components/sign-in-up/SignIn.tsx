@@ -26,7 +26,7 @@ function SignIn() {
   };
   return (
     // <div className="relative bg-primary/80 bg-bg-2">
-    <div className="relative bg-bg-2">
+    <div className="relative bg-bg-2 py-12">
       <svg
         className="absolute inset-x-0 -bottom-1 text-white"
         viewBox="0 0 1160 163"
