@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react"
 
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -44,6 +45,7 @@ export default async function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Analytics/>
         <Header userRole={userRole} profilePath={profilePath}/>
         <div>{children}</div>
         <Footer />
